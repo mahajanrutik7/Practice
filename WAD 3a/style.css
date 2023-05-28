@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600; 700;800;900&display=swap');
+* {
+margin: 0; padding: 0; box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+/* navbar */ nav {
+display: flex; align-items: center; justify-content: space-between; padding: 30px 10%; position: fixed; top: 0px; left: 0px; right: 0px; z-index: 1;
+}
+nav img {
+width: 80px;
+}
+nav ul {
+display: flex;
+}
+nav ul li {
+list-style: none;
+margin: 0px 30px;
+}
+nav ul li a {
+color: #fdfdfd; text-decoration: none; font-weight: 400; letter-spacing: 0.2px; font-size: 16px;
+}
+/* home */
+.home { background: url('./images/hero4.png'); min-height: 100vh; background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;
+}
+.home-container { background: #000000ba; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column;
+}
+.home-container h3 { color: #fdfdfd; font-size: 45px; font-weight: 600;
+}
+.home-container p { color: #686868; font-weight: 500; width: 50%; font-size: 15px; text-align: center;
+}
+.home-container a { background-color: #e5a00d; padding: 12px 25px; text-decoration: none; color: #fdfdfd; border-radius: 50px; margin-top: 20px; font-size: 14px; font-weight: 400;
+}
+/* about */
+.about { display: flex; align-items: center; justify-content: center; flex-direction: column; height: 100vh; background: #c09eba;
+}
+.about h3 { font-size: 30px; margin-bottom: 30px; color: #000000; font-weight: 600;
+}
+.about-container { display: flex; align-items: center; justify-content: center;
+}
+.about-card {
+width: 250px; margin: 20px; background: #fdfdfd; padding: 30px; border-radius: 30px;
+}
+.about-card img { width: 60px; height: 60px; object-fit: contain;
+}
+.about-card h4 { color: #1b1b1b; text-transform: capitalize; font-size: 16px; font-weight: 600;
+}
+.about-card p { font-size: 13px; font-weight: 300; margin-top: 10px;
+}
+/* signup */
+.signup { display: flex; align-items: center; justify-content: center; flex-direction: column; min-height: 100vh;
+}
+.signup h3 { font-size: 28px; margin-bottom: 30px; color: #191919; font-weight: 600;
+}
+.signup button { width: 400px; padding: 10px; display: flex; align-items: center; justify-content: center; background: #fdfdfd; margin: 5px 0px; border: 2px solid #787878; border-radius: 5px; outline: none;
+}
+.signup .facebook { background: #4267b2; border: 2px solid #4267b2; color: #fdfdfd;
+}
+.signup button img { width: 20px; margin-right: 15px;
+}
+.signup-container { width: 400px; margin-top: 30px;
+}
+.signup-container input { width: 100%; padding: 10px; background: #fdfdfd; margin: 5px 0px; border: 1.5px solid #787878; border-radius: 5px; outline: none;
+}
+.signup-container button { background: #e5a00d; border-color: #e5a00d; color: #fdfdfd; font-size: 15px; margin-top: 10px;
+}
+.signup a { color: #505050; margin-top: 10px; font-weight: 500; font-size: 14px;
+}
